@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Delius&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Delius", Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: #99c8f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container principal */
+section {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    width: 350px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+/* Título */
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.conteudo {
+    display: flex;
+    gap: 10px;
+}
+
+/* Input + botão */
+input {
+    font-size: 1.2em;
+    width: 70%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    outline: none;
+}
+
+button {
+    font-size: 15px;
+    padding: 10px;
+    border: none;
+    background: #4CAF50;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+button:hover {
+    background: #43a047;
+}
+
+/* Lista */
+ul {
+    list-style: none;
+    margin-top: 20px;
+}
+
+/* Item */
+li { 
+    font-size: 1.5em;
+    background: #f9f9f9;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    user-select: none;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+li:hover {
+    background: #f1f1f1;
+    transform: scale(1.03);
+}
+
+/* Tarefa concluída */
+.marcar {
+    text-decoration: line-through;
+    color: gray;
+    opacity: 0.7;
+}
+
+/* Botão deletar */
+li button {
+    background: #e53935;
+    padding: 5px 8px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+li button:hover {
+    background: #c62828;
+}
+
+button:active {
+    transform: scale(0.95);
+}
