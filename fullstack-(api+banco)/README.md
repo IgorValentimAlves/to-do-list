@@ -1,37 +1,51 @@
-# to-do-list <a href="https://igorvalentimalves.github.io/to-do-list/to-do-list.html">(Acesse o projeto aqui)</a>
-Esse é um projeto simples de lista de tarefas que desenvolvi com JavaScript puro, com o objetivo de praticar conceitos fundamentais da linguagem.
+📝 To-Do List API (Fullstack)
 
-A ideia foi criar algo funcional, onde é possível adicionar e remover tarefas, e principalmente manter os dados salvos mesmo após atualizar a página.
+API desenvolvida para gerenciar tarefas (To-Do List), com persistência em banco de dados.
 
-🚀 O que o projeto faz
-Permite adicionar novas tarefas
-Remove tarefas da lista
-Impede adicionar tarefas vazias
-Salva automaticamente as tarefas no navegador (localStorage)
-🛠️ Tecnologias
-HTML
-CSS
-JavaScript
-📚 O que eu aprendi
+Este projeto faz parte da evolução de uma aplicação frontend simples para uma arquitetura fullstack, com integração entre cliente, servidor e banco.
 
-Esse projeto me ajudou a entender melhor:
+---
+🚀 Tecnologias utilizadas
 
-Manipulação do DOM
-Eventos de clique
-Uso de arrays e objetos
-localStorage
-JSON (para salvar e recuperar os dados)
-🎯 Sobre o projeto
+- Node.js
+- Express
+- Prisma ORM
+- PostgreSQL
 
-Foi um projeto simples, mas importante pra mim, porque tive bastante dificuldade na parte de localStorage e JSON. Conseguir fazer tudo funcionar e manter os dados salvos foi um grande avanço no meu aprendizado.
+---
 
-💡 Próximos passos
+📌 Funcionalidades
 
-Quero evoluir esse projeto adicionando:
+- Criar tarefas
+- Listar tarefas
+- Atualizar tarefas
+- Deletar tarefas
 
-Marcar tarefas como concluídas
-Editar tarefas
-Filtros de tarefas
-👨‍💻 Autor
+API com operações completas de CRUD.
 
-Igor Valentim Alves
+---
+
+📂 Estrutura do projeto
+
+- `src/` → código da aplicação
+- `prisma/` → schema e migrations do banco de dados
+
+---
+
+🧠 Aprendizados
+
+Neste projeto, pratiquei:
+
+- Criação de APIs com Node.js e Express  
+- Integração com banco de dados usando Prisma  
+- Modelagem de dados com PostgreSQL  
+- Implementação de CRUD completo  
+- Organização de código backend  
+
+---
+
+💡 Observação
+
+O código está bem comentado (😅), pois utilizei este projeto como forma de estudo e reforço de aprendizado.
+
+Pode ser útil para quem está começando e quer entender como funciona uma API conectada a um banco de dados.
