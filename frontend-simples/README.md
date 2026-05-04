@@ -1,4 +1,4 @@
-# to-do-list <a href="https://igorvalentimalves.github.io/to-do-list/to-do-list.html">(Acesse o projeto aqui)</a>
+# to-do-list <a href="https://igorvalentimalves.github.io/to-do-list/frontend-simples/to-do-list.html">(Acesse o projeto aqui)</a>
 Esse é um projeto simples de lista de tarefas que desenvolvi com JavaScript puro, com o objetivo de praticar conceitos fundamentais da linguagem.
 
 A ideia foi criar algo funcional, onde é possível adicionar e remover tarefas, e principalmente manter os dados salvos mesmo após atualizar a página.
